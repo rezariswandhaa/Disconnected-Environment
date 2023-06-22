@@ -32,7 +32,7 @@ namespace Disconnected_Environment
             this.txtAlamat.DataBindings.Add(new Binding("Text", this.customerBindingSource, "alamat", true));
             this.cbxJenisKelamin.DataBindings.Add(new Binding("Text", this.customerBindingSource, "jenis_kel", true));
             this.dtTanggalLahir.DataBindings.Add(new Binding("Text", this.customerBindingSource, "tgl_lahir", true));
-            this.cbxProdi.DataBindings.Add(new Binding("Text", this.customerBindingSource, "nama", true)); 
+            this.cbxProdi.DataBindings.Add(new Binding("Text", this.customerBindingSource, "id_prodi", true)); 
             koneksi.Close();
         }
 
